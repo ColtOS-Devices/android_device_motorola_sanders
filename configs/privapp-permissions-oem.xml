@@ -39,7 +39,7 @@
         <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
     </privapp-permissions>
 
-    <privapp-permissions package="com.android.soundrecorder">
+   <privapp-permissions package="com.android.soundrecorder">
         <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
         <permission name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
     </privapp-permissions>
