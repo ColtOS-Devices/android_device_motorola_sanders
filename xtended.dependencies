@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "android_vendor_motorola_sanders",
+    "target_path": "vendor/motorola/sanders",
+    "branch": "xp"
+  },
+  {
+    "repository": "android_kernel_motorola_sanders",
+    "target_path": "kernel/motorola/msm8953",
+    "branch": "xp"
+  },
+  {
+    "repository": "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "xp"
+  }
+]
