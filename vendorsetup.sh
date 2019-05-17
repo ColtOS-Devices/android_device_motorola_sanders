@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo xtended_sanders-userdebug
+add_lunch_combo colt_sanders-userdebug
