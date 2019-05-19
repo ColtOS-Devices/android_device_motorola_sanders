@@ -177,9 +177,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.mm.sta.enable=0 \
     persist.dbg.volte_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1 \
-    persist.radio.calls.on.ims=1 \
-    persist.radio.jbims=1 \
-    persist.vendor.radio.jbims=1 \
     persist.dbg.wfc_avail_ovr=1
 
 # Media
