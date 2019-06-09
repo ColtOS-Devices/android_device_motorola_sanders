@@ -505,4 +505,7 @@
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>
 
+    <!-- Enable qcom fw boost -->
+    <bool name="config_enableQcCpuBoost">true</bool>
+
 </resources>
