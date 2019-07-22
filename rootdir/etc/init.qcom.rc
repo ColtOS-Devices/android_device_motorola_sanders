@@ -1044,6 +1044,9 @@ on property:ro.boot.ram=4GB
     #CPE fw_name used by sound trigger HAL
     chown media audio /sys/kernel/wcd_cpe0/fw_name
 
+    # Chown node for Smart_Charging
+    chown system system /sys/class/power_supply/battery/battery_charging_enabled
+
    # Remove settings cache, avoids derps after dirty flash
    # rm -rf /data/system/package_cache
 
