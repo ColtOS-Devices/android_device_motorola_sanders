@@ -1057,3 +1057,6 @@ on property:sys.boot_completed=1
     # Tunables
     write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor "interactive"
     write /sys/devices/system/cpu/cpufreq/interactive/use_sched_load 0
+
+on property:apexd.status=ready
+    mount none /system/etc/swcodec/ld.config.txt /apex/com.android.media.swcodec/etc/ld.config.txt bind
