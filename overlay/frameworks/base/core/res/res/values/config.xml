@@ -631,6 +631,10 @@
          will not debounce light sensor readings -->
     <integer name="config_lightSensorWarmupTime">200</integer>
 
+    <!-- Whether to artificially interpret all signal strengths as
+         one bar higher than they actually are -->
+    <bool name="config_inflateSignalStrength">true</bool>
+
     <!-- SystemInfo Sys Nodes -->
     <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone3/temp</string>
     <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
