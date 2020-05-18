@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/xtended_sanders.mk
+	$(LOCAL_DIR)/colt_sanders.mk
 
 COMMON_LUNCH_CHOICES := \
-	xtended_sanders-userdebug
+	colt_sanders-userdebug

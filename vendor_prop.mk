@@ -411,4 +411,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.xtended.maintainer=Ashwatthama
+    ro.colt.maintainer=Ashwatthama
