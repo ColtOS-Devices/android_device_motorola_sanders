@@ -665,4 +665,8 @@
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/charging_enabled</string>
     <string name="config_SmartChargingSupspendValue" translatable="false">0</string>
     <string name="config_SmartChargingResumeValue" translatable="false">1</string>
+
+    <!-- Flag indicating whether we should enable the adaptive sleep.-->
+    <bool name="config_adaptive_sleep_available">true</bool>
+
 </resources>
