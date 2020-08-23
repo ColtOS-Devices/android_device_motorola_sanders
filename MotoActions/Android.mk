@@ -19,6 +19,12 @@ LOCAL_RESOURCE_DIR := \
 
 LOCAL_PROGUARD_ENABLED := disabled
 
+LOCAL_STATIC_ANDROID_LIBRARIES := \
+    airbnb-lottie
+
+LOCAL_JAVA_LIBRARIES := \
+    airbnb-lottie
+
 include frameworks/base/packages/SettingsLib/common.mk
 
 include $(BUILD_PACKAGE)

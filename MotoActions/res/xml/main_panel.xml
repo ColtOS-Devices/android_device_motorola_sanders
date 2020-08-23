@@ -15,6 +15,9 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <Preference
+        android:key="ma_header_animation"
+        android:layout="@layout/ma_header_animation" />
 
     <PreferenceCategory
         android:title="@string/displayheader">
