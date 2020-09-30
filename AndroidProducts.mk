@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/du_sanders.mk
+	$(LOCAL_DIR)/corvus_sanders.mk
 
 COMMON_LUNCH_CHOICES := \
-	du_sanders-userdebug
+	corvus_sanders-userdebug
