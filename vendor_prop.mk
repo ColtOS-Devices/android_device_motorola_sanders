@@ -68,6 +68,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qualcomm.bluetooth.map=true \
     persist.bt.enableAptXHD=true
 
+# Use Vulkan backend for Skia UI rendering
+    debug.hwui.renderer=skiavk
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     camera.disable_zsl_mode=1 \
