@@ -575,6 +575,9 @@ on property:vold.decrypt=trigger_restart_framework
 on property:persist.env.fastdorm.enabled=true
     setprop persist.radio.data_no_toggle 1
 
+on property:dev.bootcomplete=1
+    restart ril-daemon
+
 #start camera server as daemon
 service vendor.qcamerasvr /vendor/bin/mm-qcamera-daemon
     class late_start
