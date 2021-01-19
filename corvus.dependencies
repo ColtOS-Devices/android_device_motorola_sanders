@@ -2,19 +2,19 @@
   {
     "repository" : "CorvusRom-Devices/device_motorola_sanders",
     "target_path": "device/motorola/sanders",
-    "branch"     : "10",
+    "branch"     : "11",
     "remote"     : "github"
   },
   {
     "repository" : "CorvusRom-Devices/kernel_motorola_sanders",
     "target_path": "kernel/motorola/msm8953",
-    "branch"     : "10",
+    "branch"     : "11",
     "remote"     : "github" 
   },
   {
     "repository" : "CorvusRom-Devices/vendor_motorola_sanders",
     "target_path": "vendor/motorola/sanders",
-    "branch"     : "10",
+    "branch"     : "11",
     "remote"     : "github"
   }
 ]
