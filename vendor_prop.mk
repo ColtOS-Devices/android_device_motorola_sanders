@@ -422,6 +422,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     sys.vendor.shutdown.waittime=500
 
-# Maintainer
+# For Device maintainer and CPU Information
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.corvus.maintainer=Ashwatthama
+    ro.colt.maintainer=Ashwatthama \
+    ro.colt.cpu=MSM8953
