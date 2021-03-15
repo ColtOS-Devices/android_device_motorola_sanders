@@ -425,4 +425,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # For Device maintainer and CPU Information
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.colt.maintainer=Ashwatthama \
-    ro.colt.cpu=MSM8953
+    ro.colt.cpu=msm8953
