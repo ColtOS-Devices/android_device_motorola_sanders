@@ -5,3 +5,5 @@ get_prop(surfaceflinger, diag_prop);
 binder_call(surfaceflinger, hwservicemanager)
 
 allow surfaceflinger device:chr_file { ioctl };
+
+allow surfaceflinger device:chr_file { read };

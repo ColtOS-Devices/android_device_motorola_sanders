@@ -8,3 +8,7 @@ allow rild fsg_file:lnk_file read;
 allow rild rild_exec:file execute_no_trans;
 
 allow rild fwk_sensor_hwservice:hwservice_manager find;
+
+allow rild rild:socket { ioctl };
+allow rild socket_device:sock_file { write };
+allow rild vendor_data_file:file { getattr  lock };

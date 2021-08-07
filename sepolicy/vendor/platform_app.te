@@ -8,3 +8,7 @@ allow platform_app hal_sensors_default:unix_stream_socket { read write };
 
 allow platform_app device:chr_file { ioctl  read };
 allow platform_app vendor_file:file { getattr  read };
+
+allow platform_app device:chr_file { open  write };
+allow platform_app sysfs:file { open  read };
+allow platform_app vendor_file:file { execute  open };
