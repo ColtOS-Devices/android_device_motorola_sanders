@@ -1,2 +1,5 @@
 get_prop(hal_audio_default, dirac_prop)
 set_prop(hal_audio_default, dirac_prop)
+allow hal_audio_default device:chr_file { ioctl };
+allow hal_audio_default init:binder { call };
+

@@ -22,3 +22,6 @@ allow system_app hidl_base_hwservice:hwservice_manager add;
 allow system_app sysfs_homebutton:dir search;
 allow system_app sysfs_homebutton:file { getattr open };
 
+allow system_app device:chr_file { ioctl  open  read };
+allow system_app sysfs:file { getattr  open  write };
+allow system_app vendor_file:file { execute  getattr  open  read };

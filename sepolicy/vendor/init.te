@@ -51,3 +51,13 @@ allow init { domain -lmkd -crash_dump }:process noatsecure;
 #allow init hal_perf_hwservice:hwservice_manager find;
 allow init hidl_base_hwservice:hwservice_manager add;
 
+allow init device:chr_file { ioctl  open  write };
+allow init init:socket { read  write };
+allow init init:udp_socket { ioctl };
+allow init persist_file:lnk_file { read };
+allow init proc:file { write };
+allow init sysfs:file { open  read  write };
+allow init sysfs_devices_system_cpu:file { write };
+allow init system_server:binder { call };
+allow init system_suspend:binder { call };
+allow init vendor_data_file:file { lock };
