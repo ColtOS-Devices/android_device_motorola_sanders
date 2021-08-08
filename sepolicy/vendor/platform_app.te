@@ -12,3 +12,22 @@ allow platform_app vendor_file:file { getattr  read };
 allow platform_app device:chr_file { open  write };
 allow platform_app sysfs:file { open  read };
 allow platform_app vendor_file:file { execute  open };
+
+allow platform_app device:chr_file { write };
+allow platform_app sysfs:file { getattr };
+#r_dir_file(platform_app, sysfs_kgsl)
+allow platform_app device:chr_file { write };
+
+allow platform_app device:chr_file { write };
+
+allow platform_app device:chr_file { write };
+
+allow platform_app device:chr_file { write };
+
+#r_dir_file(platform_app, sysfs_kgsl)
+
+#allow platform_app sysfs_kgsl:dir search;
+#allow platform_app sysfs_kgsl:lnk_file read;
+allow platform_app device:chr_file { write };
+allow platform_app device:chr_file { write };
+allow platform_app device:chr_file { write };

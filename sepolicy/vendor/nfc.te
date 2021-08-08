@@ -1,2 +1,5 @@
 allow nfc theme_prop:file { getattr  open  read };
 allow nfc vendor_data_file:file { read };
+allow nfc vendor_data_file:dir { add_name  write };
+allow nfc vendor_data_file:file { create  write };
+allow nfc vendor_data_file:file { open };

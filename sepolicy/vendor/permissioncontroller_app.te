@@ -1,3 +1,16 @@
 #allow permissioncontroller_app device:chr_file { open  read };
 #allow permissioncontroller_app theme_prop:file { open  read };
 #allow permissioncontroller_app vendor_file:file { execute  getattr  open  read };
+#allow permissioncontroller_app theme_prop:file { getattr  open  read };
+#allow permissioncontroller_app vendor_file:file { getattr  open  read };
+#allow permissioncontroller_app device:chr_file { open  read };
+#allow permissioncontroller_app theme_prop:file { getattr  open  read };
+#allow permissioncontroller_app vendor_file:file { execute  getattr  open  read };
+#allow permissioncontroller_app device:chr_file { open  read };
+#allow permissioncontroller_app theme_prop:file { getattr  open  read };
+#allow permissioncontroller_app vendor_file:file { execute  getattr  open  read };
+#allow permissioncontroller_app theme_prop:file { getattr  open  read };
+#allow permissioncontroller_app vendor_file:file { execute  getattr  open  read };
+#allow permissioncontroller_app device:chr_file { ioctl  read };
+#allow permissioncontroller_app theme_prop:file { getattr  open  read };
+#allow permissioncontroller_app vendor_file:file { getattr };

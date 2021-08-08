@@ -1,2 +1,10 @@
 #allow system_suspend init:binder { transfer };
+#allow system_suspend init:binder { transfer };
 
+#allow system_suspend init:binder { transfer };
+
+#allow system_suspend init:binder { transfer };
+
+#allow system_suspend init:binder { transfer };
+#allow system_suspend init:binder { transfer };
+#allow system_suspend init:binder { transfer };

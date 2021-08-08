@@ -1,0 +1,7 @@
+allow vndservicemanager rild:dir { search };
+allow vndservicemanager rild:file { open  read };
+allow vndservicemanager rild:process { getattr };
+allow vndservicemanager init:binder { transfer };
+allow vndservicemanager init:dir { search };
+allow vndservicemanager init:file { open  read };
+allow vndservicemanager init:process { getattr };

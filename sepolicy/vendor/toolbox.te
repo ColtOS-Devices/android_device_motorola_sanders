@@ -5,3 +5,7 @@ allow toolbox init:fifo_file { write getattr read ioctl };
 
 allow toolbox radio_data_file:file rw_file_perms;
 #allow toolbox firmware_file:file getattr;
+allow toolbox ram_device:blk_file { getattr  open  read };
+allow toolbox spectrum_prop:property_service { set };
+
+allow toolbox ram_device:blk_file { write };

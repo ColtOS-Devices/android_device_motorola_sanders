@@ -1,0 +1,5 @@
+allow bluetooth device:chr_file { ioctl };
+allow bluetooth gpuservice:binder { call };
+allow bluetooth init:binder { call  transfer };
+allow bluetooth vendor_file:file { execute  getattr  open  read };
+

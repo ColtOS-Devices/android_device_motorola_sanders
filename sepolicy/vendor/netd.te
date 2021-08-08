@@ -1,2 +1,4 @@
 allow netd untrusted_app_25:unix_stream_socket { read write };
+allow netd init:tcp_socket { read };
+allow netd init:tcp_socket { getopt  setopt  write };
 

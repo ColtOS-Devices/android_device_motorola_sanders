@@ -31,3 +31,4 @@ allow system_app sysfs:file { read };
 allow system_server device:chr_file { open  write };
 #allow system_server vendor_file:file { open };
 #allow system_suspend init:binder { transfer };
+allow system_app sysfs_fpc:dir { search };

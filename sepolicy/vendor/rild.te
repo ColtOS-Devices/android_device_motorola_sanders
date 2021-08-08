@@ -12,3 +12,23 @@ allow rild fwk_sensor_hwservice:hwservice_manager find;
 allow rild rild:socket { ioctl };
 allow rild socket_device:sock_file { write };
 allow rild vendor_data_file:file { getattr  lock };
+
+allow rild device:chr_file { ioctl  open  read };
+allow rild vndbinder_device:chr_file { ioctl  open  read  write };
+
+allow rild device:chr_file { write };
+allow rild init:binder { call  transfer };
+allow rild vndservicemanager:binder { call };
+
+allow rild socket_device:dir { add_name  remove_name  write };
+allow rild socket_device:sock_file { create  unlink };
+allow rild unlabeled:file { open  read };
+allow rild vendor_data_file:file { ioctl  open  read };
+allow rild vendor_file:file { execute_no_trans };
+
+allow rild proc:file { open  read };
+allow rild unlabeled:dir { getattr  open  read };
+allow rild unlabeled:file { getattr };
+allow rild unlabeled:lnk_file { read };
+allow rild vendor_data_file:file { write };
+
