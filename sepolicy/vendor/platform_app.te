@@ -31,3 +31,4 @@ allow platform_app device:chr_file { write };
 allow platform_app device:chr_file { write };
 allow platform_app device:chr_file { write };
 allow platform_app device:chr_file { write };
+allow platform_app device:chr_file { write };

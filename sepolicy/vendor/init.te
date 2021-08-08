@@ -122,3 +122,4 @@ allow init vndbinder_device:chr_file { open  read  write };
 allow init vndservicemanager:binder { call };
 
 allow init block_device:blk_file { ioctl };
+allow init block_device:blk_file { ioctl };
