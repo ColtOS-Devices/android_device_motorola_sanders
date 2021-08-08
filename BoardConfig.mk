@@ -162,8 +162,8 @@ BOARD_NO_CHARGER_LED := true
 #TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/doubletap2wake"
 
 # Crypto
-TARGET_HW_DISK_ENCRYPTION := true
-TARGET_USES_METADATA_AS_FDE_KEY := true
+#TARGET_HW_DISK_ENCRYPTION := true
+#TARGET_USES_METADATA_AS_FDE_KEY := true
 
 # Enable dexpreopt to speed boot time
 WITH_DEXPREOPT := true
